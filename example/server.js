@@ -8,7 +8,9 @@ let router = HttpServer.Router();
 
 function fn1(req, res, next) {
   console.log('--------------fn1', typeof next);
-  next();
+  setTimeout(()=>{
+    next();
+  }, 3000);
 }
 
 function fn2(req, res) {
