@@ -1,6 +1,6 @@
 {
-  "name": "http-server",
-  "version": "1.0.0",
+  "name": "http-server-x",
+  "version": "0.0.1",
   "description": "http web server",
   "main": "index.js",
   "scripts": {
