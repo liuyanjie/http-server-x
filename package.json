@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liuyanjie/web-server.git"
+    "url": "git+https://github.com/liuyanjie/http-server-x.git"
   },
   "author": "",
   "license": "ISC",
