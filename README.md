@@ -1,12 +1,10 @@
 http-server-x
 =============
 
-This is a web server base on Express
-
 ### TODO
 
-- [ ] callback、Promise、Generator、async/await。
+- [x] 支持callback、Promise、Generator、async/await.
 - [x] Router
-- [x] blah blah blah.
+- [x] 请求可取消。
 - [x] pia pia pia.
-- [ ] a  
+- [x] a  
