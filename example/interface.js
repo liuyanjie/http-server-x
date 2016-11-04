@@ -10,8 +10,15 @@ let hsx = new HttpServer({
 hsx.route('/').get(function*(sess) => {
 
 });
+
 hsx.route('/users').get((sess) => {});
-hsx.route('/users/:uid/message').get((sess) => {});
-hsx.route('/users/:uid/message/at').get((sess) => {});
-hsx.route('/users/:uid/message/favor').get((sess) => {});
-hsx.route('/users/:uid/message/comment').get((sess) => {});
+hsx.route('/users/${userId:number}/msg').get((sess) => {});
+hsx.route('/users/${userId:number}/msg/at').get((sess) => {});
+hsx.route('/users/${userId:number}/msg/favor').get((sess) => {});
+hsx.route('/users/${userId:number}/msg/comment').get((sess) => {});
+
+class HttpServerX extends HttpServer {
+  constructor() {
+    super.get();
+  }
+}
